@@ -12,8 +12,7 @@ class App extends React.Component {
 
     this.state = {
       searchWorld: ""
-    };
-    
+    };  
     this.handleSearch = this.handleSearch.bind(this);
   }
 
@@ -29,8 +28,8 @@ class App extends React.Component {
     return (
       <>
         <Header/>
-        <Search handleSearch={this.handSearch}/>
-        <LyricWrapper/>
+        <Search handleSearch={this.handleSearch}/>
+        <LyricWrapper searchWorld={this.state.searchWorld}/>
         <Footer/>
       </>
     );

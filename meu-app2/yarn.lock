@@ -6142,6 +6142,11 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lyricsovh-lib@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/lyricsovh-lib/-/lyricsovh-lib-1.0.2.tgz#a258f8881b7f88040b771af8c9a318ebfc24a09a"
+  integrity sha512-evbQLF5mjaVpYNLKuJhHYTG/WwSb8cx6woA8nlSYzxviCQOzJU3ZlEIzLv0n+UpbCi/WAVPu6Yma5yp4rRBKuw==
+
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
