@@ -1,0 +1,9 @@
+@import '../../assets/theme/variables';
+
+.footer {
+    background: $p-color;
+    @include shadow-default;
+    color: white;
+    font-size: 8px;
+    padding: 20px 12px;
+}
